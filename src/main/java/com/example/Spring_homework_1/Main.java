@@ -19,11 +19,11 @@ public class Main {
         System.out.println(studentA1.getName() + " " + studentA2.getAge());
 
 
-        StudentB studentB1 = context.getBean(StudentB.class);
-        StudentB studentB2 = context.getBean(StudentB.class);
-
-        studentB1.setName("Anna");
-        System.out.println(studentB2.getName());
+//        StudentB studentB1 = context.getBean(StudentB.class);
+//        StudentB studentB2 = context.getBean(StudentB.class);
+//
+//        studentB1.setName("Anna");
+//        System.out.println(studentB2.getName());
 
     }
 }

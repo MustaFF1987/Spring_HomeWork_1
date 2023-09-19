@@ -5,8 +5,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="idA" class="test.StudentA" scope="singleton"/>
-    <bean id="idB" class="test.StudentB" scope="prototype"/>
+
+    <bean id="idA" class="com.example.Spring_homework_1.StudentA" scope="prototype"/>
+
 
 
 </beans>
